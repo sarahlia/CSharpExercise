@@ -1,0 +1,12 @@
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/bin/Debug/netcoreapp3.1/ReferenceVsValueTypes.deps.json
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/bin/Debug/netcoreapp3.1/ReferenceVsValueTypes.runtimeconfig.json
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/bin/Debug/netcoreapp3.1/ReferenceVsValueTypes.runtimeconfig.dev.json
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/bin/Debug/netcoreapp3.1/ReferenceVsValueTypes.dll
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/bin/Debug/netcoreapp3.1/ReferenceVsValueTypes.pdb
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.csprojAssemblyReference.cache
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.AssemblyInfoInputs.cache
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.AssemblyInfo.cs
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.csproj.CoreCompileInputs.cache
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.dll
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.pdb
+/Users/developer/RiderProjects/Exercise/ReferenceVsValueTypes/obj/Debug/netcoreapp3.1/ReferenceVsValueTypes.genruntimeconfig.cache
