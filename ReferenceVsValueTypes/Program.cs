@@ -69,6 +69,12 @@ namespace Ref
         public static void ChangePetType(Pet aPet)
         {
             aPet.Type = "Cat";
+            aPet = new Pet
+            {
+                Name = "Spiro",
+                Type = "Dragon",
+                Weight = 40
+            };
             Console.WriteLine($"aPet is: {aPet}");
         }
     }
