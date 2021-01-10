@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Ref
 {
@@ -56,6 +57,39 @@ namespace Ref
             Console.WriteLine($"pet1 is {pet1}");
             Console.WriteLine($"pet2 is {pet2}");
             Console.WriteLine($"pet3 is {pet3}");
+            
+            #endregion
+            
+            #region Strings
+            Console.WriteLine("Strings are immutable.");
+            var a = "cheese";
+            var b = a;
+            b += " pizza";
+
+            Console.WriteLine($"a is: {a}");
+            Console.WriteLine($"b is: {b}");
+            
+            #endregion
+            
+            #region Nullable types
+            int? someNumber = default;
+            someNumber = 7;
+            Console.WriteLine(someNumber);
+
+            string? someWord = default;
+            someWord = "Hi there";
+            Console.WriteLine(someWord);
+
+            #endregion
+            
+            #region Others(LINQ)
+            int[] numbers = { 2, 3, 4, 5 };
+            var squaredNumbers = numbers.Select(x => x * x);
+            // Console.WriteLine(string.Join(" ", squaredNumbers));
+            foreach (var numb in squaredNumbers)
+            {
+                Console.WriteLine(numb.ToString());
+            }
             
             #endregion
         }
