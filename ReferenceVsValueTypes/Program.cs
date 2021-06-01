@@ -1,20 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 
 namespace Ref
 {
-    public class Pet
-    {
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public int Weight { get; set; }
-
-        public override string ToString()
-        {
-            return $"{Name} is a {Type} and weighs {Weight}";
-        }
-    }
-    
     class Program
     {
         static void Main(string[] args)
@@ -82,6 +71,14 @@ namespace Ref
 
             #endregion
             
+            #region LINQ
+
+            // string path = @"developer/projects/CSharpExercise";
+            // ShowLargeFilesWithoutLinq();
+
+
+            #endregion
+            
             #region Others(LINQ)
             int[] numbers = { 2, 3, 4, 5 };
             var squaredNumbers = numbers.Select(x => x * x);
@@ -92,6 +89,41 @@ namespace Ref
             }
             
             #endregion
+            
+            #region Questions
+            
+            //Q1
+            String first = "TechBeamers";
+            String second = "TECHBEAMERS";
+            int third;
+            third = first.CompareTo(second);
+            Console.WriteLine(third); //output: -1
+            
+            //Q2 -- output: Method 1 \n Method 2
+            static bool SomeMethod1()
+            {
+                Console.WriteLine("Method 1");
+                return false;
+            }
+
+            static bool SomeMethod2()
+            {
+                Console.WriteLine("Method 2");
+                return true;
+            }
+            
+            if (SomeMethod1() & SomeMethod2())
+            {
+                Console.WriteLine("the if block has was executed");
+            }
+            
+            #endregion
+        }
+
+        private static void ShowLargeFilesWithoutLinq(string path)
+        {
+            DirectoryInfo directory = new DirectoryInfo(path);
+            FileInfo[] files = directory.GetFiles();
         }
 
         public static void ChangeNum(int num)
