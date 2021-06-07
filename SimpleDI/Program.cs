@@ -6,7 +6,9 @@ namespace SimpleDI
     {
         static void Main(string[] args)
         {
-            var user1 = new User("Tim");
+            var notificationService = new ConsoleNotification();
+            
+            var user1 = new User("Tim", notificationService);
             user1.ChangeUserName("Robert");
 
             Console.ReadKey();

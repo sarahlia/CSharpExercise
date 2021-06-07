@@ -2,7 +2,7 @@ using System;
 
 namespace SimpleDI
 {
-    internal class ConsoleNotification
+    internal class ConsoleNotification : INotificationService
     {
         public void NotifyUsernameChanged(User user)
         {
